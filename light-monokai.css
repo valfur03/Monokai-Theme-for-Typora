@@ -29,6 +29,11 @@ body {
     margin: 0 auto;
 }
 
+html,
+#write {
+    padding-top: 0;
+}
+
 table {
     background-color: transparent;
     width: auto;
@@ -205,4 +210,12 @@ a {
 
 .dropdown-menu>li>a {
     color: #C5C6C7;
+}
+
+pre.md-meta-block {
+    margin-top: 40px;
+    border-bottom: 1px dotted white;
+    padding: 10px;
+    line-height: 20px;
+    background: #272822;
 }
