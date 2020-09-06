@@ -181,6 +181,10 @@ li {
     color: white !important;
 }
 
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid white;
+}
+
 code {
     color: #f92672;
     font-family: 'Inconsolata', monospace;
