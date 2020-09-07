@@ -227,3 +227,24 @@ pre.md-meta-block {
     line-height: 20px;
     background: #272822;
 }
+
+hr {
+    margin: 50px 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: none;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #d1d1d1;
+}
