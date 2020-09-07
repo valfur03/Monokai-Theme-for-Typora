@@ -200,6 +200,12 @@ a:hover {
     color: #807B49;
 }
 
+blockquote {
+    border-left: 7px solid #424241;
+    padding: 5px 10px;
+    background-color: #333332;
+}
+
 #typora-sidebar {
     background: #272822;
 }
