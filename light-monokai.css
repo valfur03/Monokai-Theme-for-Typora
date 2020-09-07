@@ -23,15 +23,9 @@ body {
 
 #write {
     size: auto;
-    padding-left: 10ch;
-    padding-right: 10ch;
+    padding: 70px 10ch;
     max-width: 1224px;
     margin: 0 auto;
-}
-
-html,
-#write {
-    padding-top: 0;
 }
 
 table {
