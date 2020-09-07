@@ -248,3 +248,35 @@ hr {
  ::-webkit-scrollbar-thumb:hover {
     background: #d1d1d1;
 }
+
+@media screen and (max-width: 768px) {
+    #write {
+        padding: 50px 1ch;
+    }
+    ul,
+    ol {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        font-size: 10px;
+    }
+    #write {
+        padding: 20px 3ch;
+    }
+    ul,
+    ol {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 10px;
+    }
+    #write {
+        padding: 5px 2ch;
+    }
+}
