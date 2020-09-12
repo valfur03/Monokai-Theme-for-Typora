@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 :root {
+    --bg-color: #272822;
     --blur-text-color: #333333;
     --control-text-color: #C8C8C8;
     --select-text-bg-color: #a2a192;
@@ -221,6 +222,22 @@ blockquote {
 
 .file-tree-node.active>.file-node-background {
     background-color: #55544e;
+}
+
+.btn-primary {
+    background-color: #a6e22e;
+}
+
+.btn-primary:hover {
+    background-color: #90c02f;
+}
+
+.modal-content {
+    border: 1px solid #696969;
+}
+
+.dropdown-menu .divider {
+    border-top: 1px solid #696969;
 }
 
 .dropdown-menu>li>a {
