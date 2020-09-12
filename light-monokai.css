@@ -102,6 +102,10 @@ li {
     color: #ae81ff;
 }
 
+.cm-s-inner span.cm-operator {
+    color: #fff;
+}
+
 .cm-s-inner span.cm-comment.cm-attribute {
     color: #97b757;
 }
